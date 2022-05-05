@@ -1,0 +1,16 @@
+<%- include("partials/header") %>
+
+<header>
+  <p>PassMan</p>
+</header>
+
+<div class="create-container">
+  <form class="create-form" action="/create" method="post">
+    <input type="text" name="website" placeholder="Website address" />
+    <input type="text" name="username" placeholder="Username" />
+    <input type="password" name="password" placeholder="Password" />
+    <button type="submit">Create New Login</button>
+  </form>
+</div>
+
+<%- include("partials/footer") %>

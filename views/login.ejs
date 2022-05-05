@@ -1,0 +1,12 @@
+<%- include('partials/header') %>
+
+    <div>
+      <img class="app-logo" src="images/new-logo.png" />
+      <form action="/login" method="post">
+        <input type="email" class="login-input" name="username" placeholder="Email">
+        <input type="password" class="login-input" name="password" placeholder="Password">
+        <button type="submit" class="btn btn-light" > Login </button>
+      </form>
+    </div>
+
+<%- include('partials/footer') %>

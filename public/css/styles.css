@@ -1,0 +1,118 @@
+body {
+  text-align: center;
+  /* background-color: #161C60; */
+  background-color: #080021;
+  background-image: url("../images/cubes.png");
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 2rem;
+}
+
+button.login {
+  border: 1px solid #373737;
+}
+
+button.login:hover {
+  border: 1px solid #ccc;
+}
+
+.create-form {
+  font-size: 1rem;
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #1C1B22;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px #000;
+}
+.create-form input {
+  background-color: #1C1B22;
+  color: white;
+  width: 100%;
+  border-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 4px;
+  margin: 6px 0;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+.create-form button {
+  background: #25BDD6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+header {
+  background-color: #1C1B22;
+  padding: 4px 28px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header p {
+  font-size: 2rem;
+  line-height: 24px;
+  text-align: left;
+  color: #25BDD6;
+  padding: 10px 0;
+  margin-bottom: 6px;
+}
+
+.app-logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.login-input {
+  width: 250px;
+  border-radius: 3px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 4px 15px;
+  margin: 20px auto 20px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: grey;
+  font-weight: 400;
+}
+
+.login {
+  background: #1C1B22;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #000;
+  padding: 10px;
+  width: 240px;
+  height: 170px;
+  margin: 16px;
+  float: left;
+}
+
+.p-user {
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-top: 2px;
+  margin-left: 8px;
+}
+
+.p-label {
+  text-align: left;
+  margin-bottom: 10px;
+  color: #ccc;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.register-btn {
+  background-color: black;
+  color: white;
+}

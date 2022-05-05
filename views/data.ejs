@@ -1,0 +1,27 @@
+<%- include("partials/header") %>
+
+  <header>
+    <p>PassMan</p>
+  </header>
+
+  <div class="data-container">
+    <% data.logins.forEach((login, i) => { %>
+      <div class="login">
+        <h3><%= login.website %></h3>
+        <p class="p-label">Username:</p>
+        <p class="p-user"><%= login.username %></p>
+        <p class="p-label">Password:</p>
+        <p class="p-user"><%= login.password %></p>
+        <form class="" action="/delete" method="post">
+          <input name="checkbox" value="<%= login._id %>" type="checkbox" onChange="this.form.submit()">
+        </form>
+      </div>
+    <% }); %>
+    <form class="" action="/data" method="post">
+      <button class="login add-box" type="submit">
+        <h1>+</h1>
+      </button>
+    </form>
+  </div>
+
+<%- include("partials/footer") %>
